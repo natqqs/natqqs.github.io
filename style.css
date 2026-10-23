@@ -1,0 +1,15 @@
+:root{--nuit:#080a12;--carte:#10141f;--ligne:#22304a;--encre:#eef3fb;--doux:#929cb2;--cyan:#5cd6ff;--rose:#ffae8a}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(120% 70% at 50% -10%,#121a33 0%,var(--nuit) 70%);color:var(--encre);
+  font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;min-height:100vh}
+main{max-width:46rem;margin:0 auto;padding:48px 20px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+header svg{width:64px;height:64px;flex:none}
+h1{font-weight:300;letter-spacing:.3em;font-size:1.6rem;margin:0}
+h1 small{display:block;letter-spacing:.08em;font-size:.85rem;color:var(--rose);font-weight:500}
+h2{font-size:1.1rem;color:var(--cyan);margin:32px 0 8px}
+p,li{color:var(--encre)}
+.doux{color:var(--doux)}
+.carte{background:var(--carte);border:1px solid var(--ligne);border-radius:16px;padding:20px 22px;margin:20px 0}
+a{color:var(--cyan)}
+footer{margin-top:40px;color:var(--doux);font-size:.9rem;border-top:1px solid var(--ligne);padding-top:16px}
